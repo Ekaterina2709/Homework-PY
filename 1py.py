@@ -6,9 +6,9 @@
 # 1 -> нет
 
 # a = int(input('Введите порядковый номер дня недели (учитывая 1 - это пн, 7 - это вс: ) '))
-# if(a == 6 or a == 7):
+# if a == 6 or a == 7:
 #     print("да")
-# elif (a>7 or a==0 or a<0):
+# elif a > 7 or a == 0 or a <0:
 #     print("- Такого дня недели нет")
 # else:
 #     print("нет")
@@ -16,8 +16,8 @@
 
 # Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 # for x in range(2):
-#         for y in range(2):
-#             for z in range(2):
+#     for y in range(2):
+           for z in range(2):
 #                 print(f'Выражение ¬({x} ⋁ {y} ⋁ {z}) = ¬{x} ⋀ ¬{y} ⋀ ¬{z} {not (x or y or z) == (not x and not y and not z)}')
               
                 
@@ -32,13 +32,13 @@
 
 # if x == 0 or y == 0:
 #     print('Вы находитесь на оси координат')
-# elif x > 0 and y > 0:
+# elif x > 0 < y:
 #     print(f'При  x = {x} и y = {y} ваша точка находится в 1 четверти')
-# elif x < 0 and y > 0:
+# elif x < 0 < y:
 #     print(f'При  x = {x} и y = {y} ваша точка находится во 2 четверти')
-# elif x < 0 and y < 0:
+# elif x < 0 > y:
 #     print(f'При  x = {x} и y = {y} ваша точка находится в 3 четверти')
-# elif x > 0 and y < 0:
+# elif x > 0 < y:
 #     print(f'При  x = {x} и y = {y} ваша точка находится в 4 четверти')
                 
 
