@@ -12,6 +12,6 @@ for i in range(N):
 print(f'Сформированный список{rnd}')
 with open('file.txt','r') as fil:
     for line in fil:
-        if -len(rnd)<= int(line)< len(rnd):
+        if -len(rnd) <= int(line) < len(rnd):
             new.append(rnd[int(line)])
 print(f'Выбранные элементы по заданным индексам {new}')
