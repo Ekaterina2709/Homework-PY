@@ -5,7 +5,7 @@
 
 from random import randint
 N = int(input('Введите число N: '))
-rnd =[]
+rnd = []
 new = []
 for i in range(N):
     rnd.append(randint(-N,N+1))
