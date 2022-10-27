@@ -9,8 +9,8 @@
 N = int(input('Введите число N '))
 s = 0
 A = []
-for i in range(1, N+1):
-    s += (1+1/i)**i
+for i in range(1, N + 1):
+    s += (1 + 1 / i) ** i
     print(f'{i} = > {s}')
     A.append(s)
 print(A)
