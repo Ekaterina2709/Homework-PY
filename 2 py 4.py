@@ -8,7 +8,7 @@ N = int(input('Введите число N: '))
 rnd = []
 new = []
 for i in range(N):
-    rnd.append(randint(-N,N+1))
+    rnd.append(randint(-N, N + 1))
 print(f'Сформированный список{rnd}')
 with open('file.txt','r') as fil:
     for line in fil:
