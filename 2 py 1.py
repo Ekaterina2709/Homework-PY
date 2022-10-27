@@ -4,4 +4,4 @@
 # 6782 -> 23
 # 0,56 -> 11
 
-print(sum(map(int, (x for x in input('Введите вещественное число: ') if x.isdigit()))))
+print ( sum ( int ( x )  for  x  in  input ( ' Введенное число:' ) if  x.isdigit ()) )
