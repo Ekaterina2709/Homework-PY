@@ -3,7 +3,7 @@
 # Найдите произведение элементов на указанных позициях. 
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
-from random import Random, randint
+from random import randint
 N = int(input('Введите число N: '))
 rnd =[]
 new = []
