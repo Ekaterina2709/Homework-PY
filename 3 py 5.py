@@ -17,5 +17,5 @@ for e in range(1, k+1):
     fibon.append(fib(e))
 neg_fib = []
 for i in range(k, 0, -1):
-    neg_fib.append(str((-1)**(i+1)*fibon[i]))
+    neg_fib.append(int((-1)**(i+1)*fibon[i]))
 print(neg_fib+fibon)
