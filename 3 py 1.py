@@ -6,6 +6,6 @@
 a = [2, 3, 5, 9, 3]
 s = 0
 for i in range(len(a)):
-    if i%2:
+    if i % 2:
         s += a[i]          
 print(f"ответ: {s}")
