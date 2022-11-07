@@ -18,8 +18,8 @@ for i in range(1, N+1):
 print(f'Список простых множителей:{spi}')
 tmp = N
 i =  0
-while tmp>1:
-    if tmp%spi[i]==0:
+while tmp > 1:
+    if tmp % spi[i] == 0:
         tmp /= spi[i]
         res.append(spi[i])     
     elif N == 1:
